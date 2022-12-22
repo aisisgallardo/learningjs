@@ -33,3 +33,15 @@ console.log(sayHello('hola')('isis'));
 
 
 // work here
+/* Closure: is the function and the scope */
+
+const coolcanIDrive = () =>  age => age>=18;
+  
+console.log(coolcanIDrive(19));
+
+
+
+const coolsayHello = greeting =>  name =>`${greeting} ${name}`;
+
+console.log(coolsayHello('hola')('isis'));
+
